@@ -1,7 +1,7 @@
 .colores {
-  color: #f9f3df;
-  color: #d7e9f7;
-  color: #fdfce5;
+  color: #dbd0c0;
+  color: #faeee0;
+  color: #f9e4c8;
   color: #f4d19b; }
 
 * {
@@ -39,9 +39,26 @@
   flex-direction: row;
   justify-content: space-evenly; }
 
+.texto-colecciones h1 {
+  background-color: #f4d19b;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5rem; }
+
+.colecciones {
+  font-size: 2rem; }
+
+.novedades h2 {
+  font-size: 2rem;
+  text-align: center;
+  background-color: #f4d19b;
+  margin-top: 6.25rem; }
+
 .grid-principal {
   width: 100%;
-  height: 43.75rem;
+  height: 56.25rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(7, 1fr); }
@@ -110,13 +127,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4d173; }
+  margin-top: 12.5rem;
+  margin-bottom: 12.5rem;
+  background-color: #fefefe; }
   .flex-informacion .container-informacion {
     display: flex;
     width: 100%;
     height: 21.875rem;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center; }
   .flex-informacion .container-text {
     width: 280px;
@@ -125,10 +144,27 @@
     padding: 1.25rem; }
   .flex-informacion img {
     width: 4.375rem;
-    height: 4.375rem; }
+    height: 4.375rem;
+    margin-bottom: .625rem; }
+
+.card-newsletter {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: 6.25rem;
+  align-items: center; }
+  .card-newsletter p {
+    font-size: 1.5rem; }
+
+.button-newsletter {
+  font-size: 1.125rem;
+  padding: .625rem;
+  background-color: white;
+  border-radius: .3125rem; }
 
 .container-card {
-  width: 15.625rem;
+  width: 16.875rem;
   height: 23.75rem;
   border-radius: .3125rem;
   text-align: center;
@@ -162,7 +198,6 @@
     top: 20px;
     right: 20px; }
   .section-novedades .text-novedades p {
-    overflow: hidden;
     font-size: 1.125rem; }
 
 .producto-img img:hover {
@@ -245,14 +280,14 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436); }
 
 .text-servicios h2 {
-  background-color: #f4efe9;
+  background-color: #f4d19b;
   text-align: center; }
 
 .flex-servicios {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4d173; }
+  background-color: #dbd0c0; }
   .flex-servicios .container-servicios {
     display: flex;
     width: 100%;
@@ -278,6 +313,15 @@
     font-size: 1.875rem;
     text-align: center; }
 
+.section-quienes p {
+  font-size: 1.25rem; }
+
+.section-quienes .titulo-uno {
+  font-size: 2.125rem; }
+
+.section-quienes .titulo-dos {
+  font-size: 1.875rem; }
+
 .servicio-entregas img {
   width: 900px;
   height: 600px;
@@ -298,12 +342,17 @@
 .servicios {
   width: 56.25rem;
   padding: 1.875rem; }
-  .servicios h2 {
-    font-size: 2rem; }
   .servicios h3 {
-    font-size: 1.5rem; }
-  .servicios p {
+    font-size: 1.75rem; }
+  .servicios h4 {
     font-size: 1.25rem; }
+  .servicios p {
+    font-size: 1rem; }
+  .servicios .list-servicios {
+    width: 15.625rem;
+    border: black 5px solid; }
+    .servicios .list-servicios a {
+      font-size: 1.5rem; }
 
 .grid-ofertas {
   display: grid;
@@ -404,6 +453,8 @@
   width: 100%;
   object-fit: contain;
   margin: 0;
+  padding-top: 1.25rem;
+  padding-left: .625rem;
   background-color: #f9f3df; }
 
 .section-servicios {
@@ -414,10 +465,35 @@
 
 .card-servicios {
   width: 43.75rem;
-  height: 31.25rem;
+  height: 26.5625rem;
   text-align: justify;
-  border-radius: .3125rem;
+  border-radius: .625rem;
   padding: .625rem;
   border-color: black;
   border-width: medium;
-  border-style: solid; }
+  border-style: solid;
+  margin-left: .3125rem; }
+  .card-servicios h5 {
+    font-size: 1.5rem;
+    text-align: justify; }
+  .card-servicios p {
+    font-size: 1.125rem;
+    text-align: justify; }
+
+/*animaciones
+*/
+.fade-in {
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
