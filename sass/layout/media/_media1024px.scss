@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1025px) {
+
+    .grid-principal{
+        .texto1{
+            grid-column: 3 / 4 ;
+            grid-row: 2 / 3 ;
+            font-size: 2.5rem;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .texto2{
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+            font-size: 2.5rem;
+           text-align: center;
+        }
+        .texto3{
+            grid-column:3 / 4;
+            grid-row: 4 / 5;
+            font-size: 1.375rem;
+            text-align: center;
+          
+        }
+        .texto4{
+            grid-column:1 / 2;
+            grid-row: 7 / 8;
+            font-size: 1rem;
+            text-align: center;
+            font-weight: bolder;
+            padding: .3125rem;
+            color:rgb(255, 255, 255);
+        }
+       
+    }
+
+    .texto-colecciones h1{
+        font-size: 2.375rem;
+    }
+
+    .header_index {
+        input{
+            display:none
+        }
+        
+    }
+
+
+  }

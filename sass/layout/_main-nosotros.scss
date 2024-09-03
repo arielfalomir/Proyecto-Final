@@ -1,0 +1,94 @@
+.texto-quienessomos {
+    margin-top: 1.25rem;
+    h1{
+        text-align: center;
+        font-size: 2.875rem;
+    }
+    p{
+        font-size: 1.875rem;
+        text-align: center;
+    }
+}
+
+.section-quienes{
+    p{font-size: 1.25rem;}
+.titulo-uno{
+font-size: 2.125rem;
+}
+
+.titulo-dos{
+font-size: 1.875rem;
+}
+}
+
+.servicio-entregas img {
+    width: 900px;
+    height: 600px;
+    padding: 30px;
+    object-fit: cover;
+}
+
+.nav-nosotros{
+    width: 100%;
+    height: 15.625rem;
+        ul li{text-decoration: none;
+        a{color: black;
+            font-size: 1.875rem;
+        text-decoration:none;
+        padding: .3125rem;
+}
+}
+}
+
+
+.servicios {
+    width: 56.25rem;
+    padding: 1.875rem;
+    h3{
+        font-size: 1.75rem;
+    }
+    h4{ font-size: 1.25rem ;}
+    p{ font-size: 1rem;}
+    .list-servicios{
+        width: 15.625rem;
+        border: black 5px solid;
+        a{font-size: 1.5rem;}
+    }
+}
+
+.flex-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 208, 192);
+    .container-servicios{
+        display: flex;
+        width: 100%;
+        height: 12.5rem;
+        flex-direction:row;
+        justify-content:space-evenly;
+        align-items: center;
+        }
+        .container-text2{
+            width: 280px;
+            height: 6.25rem;
+            text-align: center;
+            padding: 1.25rem;
+        }
+        img{
+            width: 4.375rem;
+            height: 4.375rem;
+        }
+    
+}
+
+
+.text-servicios h2{
+    background-color:rgb(244, 209, 155);
+    text-align: center;
+
+}
+
+.fondo-nosotros{
+    background-color: white;
+}

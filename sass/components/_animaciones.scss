@@ -1,0 +1,27 @@
+.fade-in {
+	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .producto-img img:hover {
+    transform: scale(1, 2);
+    filter: drop-shadow(2px 2px 20px black);
+    transition: all 1000ms cubic-bezier(.17,.67,.33,1.13);
+}
