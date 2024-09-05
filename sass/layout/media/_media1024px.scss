@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1025px) {
+@media (max-width: 1025px){
 
     .grid-principal{
         .texto1{
@@ -19,8 +19,7 @@
             grid-row: 4 / 5;
             font-size: 1.375rem;
             text-align: center;
-          
-        }
+          }
         .texto4{
             grid-column:1 / 2;
             grid-row: 7 / 8;
@@ -30,8 +29,7 @@
             padding: .3125rem;
             color:rgb(255, 255, 255);
         }
-       
-    }
+       }
 
     .texto-colecciones h1{
         font-size: 2.375rem;
@@ -41,8 +39,182 @@
         input{
             display:none
         }
-        
     }
 
 
-  }
+.button-search{
+    display: none
+}
+
+.grid-productos {
+    display: grid;
+    width:100%;
+    height:1000px;
+    grid-template-columns: repeat(4, 10.625rem);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 1.875rem;
+    padding: 1.875rem;
+         .position-new{
+            position: absolute;
+            top: 20px;
+            right: 20px;}
+        div p{
+            text-align: center;
+            font-size: 1rem;
+        }
+        div button{
+            padding: 0 ;
+            border-radius: 5px 5px 10px;
+            background-color: rgb(244, 239, 233);
+            font-size: 16px;
+        }
+}
+
+.container-card{
+    width: 10rem;
+    height: 18.75rem;
+    border-radius: .3125rem;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
+    position:relative;
+    background-color: white;}
+
+    .texto-quienessomos {
+        margin-top: 1.25rem;
+        h1{
+            text-align: center;
+            font-size: 2.25rem;
+        }
+        p{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    .section-quienes{
+        p{font-size: 1.125rem;}
+    .titulo-uno{
+    font-size: 1.75rem;
+    }
+    
+    .titulo-dos{
+    font-size: 1.25rem;
+    }
+    }
+
+
+    .titulo-ofertas{
+        margin-top: 40px;
+        background-color:rgb(244, 209, 155) ;
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+    .section-ofertas {
+        width: 60% ;
+        height: 62.5rem;
+        background-color:rgb(219, 208, 192 );
+        text-align: center;
+        padding: 2.5rem;
+        margin-left: 12.5rem;
+        margin-top: 6.25rem;
+        h3{font-size: 1.375rem;}
+        p{font-size: 1.125rem;}
+    }
+
+    .grid-ofertas{
+        width:100%;
+        height:1000px;
+        grid-template-columns: repeat(4, 10.625rem);
+        grid-template-rows: repeat(2, 1fr);
+        margin-bottom: 3.125rem;
+        padding: 1.875rem;
+     }
+    
+    
+    
+    .container-oferta {
+        width: 12.5rem;
+        height: 21.25rem;
+        border-radius: .3125rem;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
+        position:relative;
+        background-color: white;
+    
+    }
+
+    .main-contactos{
+        background-color: rgb(249, 243, 223);
+        h1{
+            text-align: center;
+            font-size: 2.375rem;
+            margin-bottom: 40px;
+            margin-top: 40px;
+            background-color: rgb(255, 224, 181);
+    
+        }
+    }
+
+    .container-atencioncliente {
+            img{
+            width: 100%;
+            height: 25rem;
+            object-fit: cover;}
+        }
+       section div label{
+            font-size: 1.5rem;
+            
+        }
+        button{
+           padding: 10px 60px 10px 60px;
+           text-align: center;
+          border-radius: .3125rem;
+          font-size: 20px;
+          background-color: rgb(255,242,215);
+            }
+        p{font-size: 16px;
+            
+    }
+    
+
+    .section-servicios{
+        margin-top: 3.125rem;
+        display: flex;
+        flex-direction: row;
+        gap:20px
+    }
+    
+    .card-servicios {
+       
+        h5{
+            font-size: 1.25rem;
+            text-align: justify;
+        }
+        p{
+            font-size: 1rem;
+            text-align: justify;
+        }
+    }
+
+    .section-contactos{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        gap:15px;
+        margin-top: 3.125rem;
+        width: 400px;
+        height: 31.25rem;
+        margin-left: .9375rem;
+        p{
+            font-size: 1.25rem;
+        }
+        a{text-decoration: none;
+        color: black;
+        font-size: 1.25rem;}
+        img{
+            margin-right: .625rem;
+        }
+    }
+}
