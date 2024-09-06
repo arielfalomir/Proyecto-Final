@@ -3,21 +3,26 @@
     h1{
         text-align: center;
         font-size: 2.875rem;
+        $FuenteTitulo: "Inter", sans-serif;
     }
     p{
         font-size: 1.875rem;
+        font-family: $fuenteParrafo;
         text-align: center;
     }
 }
 
 .section-quienes{
-    p{font-size: 1.25rem;}
+    p{font-size: 1.25rem;
+        font-family: $fuenteParrafo;}
 .titulo-uno{
 font-size: 2.125rem;
+$FuenteTitulo: "Inter", sans-serif;
 }
 
 .titulo-dos{
 font-size: 1.875rem;
+$FuenteTitulo: "Inter", sans-serif;
 }
 }
 
@@ -37,13 +42,17 @@ font-size: 1.875rem;
     padding: 1.875rem;
     h3{
         font-size: 1.75rem;
+        $FuenteTitulo: "Inter", sans-serif;
     }
-    h4{ font-size: 1.25rem ;}
-    p{ font-size: 1rem;}
+    h4{ font-size: 1.25rem ;
+        $FuenteTitulo: "Inter", sans-serif;}
+    p{ font-size: 1rem;
+        font-family: $fuenteParrafo;}
     .list-servicios{
         width: 15.625rem;
         border: black 5px solid;
-        a{font-size: 1.5rem;}
+        a{font-size: 1.5rem;
+            font-family: $fuenteParrafo;}
     }
 }
 
@@ -51,7 +60,7 @@ font-size: 1.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(219, 208, 192);
+    background-color: map-get($coLores, color1);
     .container-servicios{
         display: flex;
         width: 100%;
@@ -71,6 +80,7 @@ font-size: 1.875rem;
             height: 4.375rem;
         }
         p{
+            font-family: $fuenteParrafo;
             font-size: 1.125rem;
         }
     
@@ -78,11 +88,12 @@ font-size: 1.875rem;
 
 
 .text-servicios h2{
-    background-color:rgb(244, 209, 155);
+    background-color:map-get($coLores, color4 );
     text-align: center;
+    $FuenteTitulo: "Inter", sans-serif;
 
 }
 
 .fondo-nosotros{
-    background-color: white;
+    background-color:map-get($coLores, color6 );
 }

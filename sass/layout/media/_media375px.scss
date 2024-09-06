@@ -7,17 +7,16 @@
         align-items: center;
         margin-top: 6.25rem;
         margin-bottom: 6.25rem;
-        background-color: rgb(254, 254, 254);
        .container-informacion {
         display: flex;
         width: 23.4375rem;
-        height: 18.75rem;
+        height: 15.625rem;
         flex-direction:row;
         justify-content:space-around;
         align-items: center;
         }
         .container-text{
-            width: 100px;
+            width: 7.5rem;
             height: 12.5rem;
             text-align: center;
             padding: .625rem;
@@ -56,7 +55,6 @@
         .button-newsletter{
         font-size: .625rem;
         padding: .3125rem;
-        background-color: rgb(255, 255, 255);
         border-radius: .3125rem;
         }
 
@@ -119,7 +117,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgb(219, 208, 192);
             .container-servicios{
                 display: flex;
                 width: 100%;
@@ -143,7 +140,6 @@
         }
         
         .text-servicios h2{
-            background-color:rgb(244, 209, 155);
             text-align: center;
             font-size: 1.125rem;
         }
@@ -188,7 +184,6 @@
         .section-ofertas {
             width: 100% ;
             height: 31.25rem;
-            background-color:rgb(219, 208, 192 );
             text-align: center;
             padding: 2.5rem;
             margin-left: 0;
@@ -198,15 +193,12 @@
         }
         
         .main-contactos{
-            background-color: rgb(249, 243, 223);
             img{width: 100%;}
             h1{
                 text-align: center;
                 font-size: 1rem;
                 margin-bottom: 40px;
                 margin-top: 40px;
-                background-color: rgb(255, 224, 181);
-        
             }
             .container-atencioncliente {
                 img{
@@ -223,7 +215,6 @@
                text-align: center;
               border-radius: .3125rem;
               font-size: .5rem;
-              background-color: rgb(255,242,215);
                 }
             p{font-size: .625rem;
                 
@@ -286,11 +277,9 @@
             }
         }
         
-
-
-
-
-
-
+.logo-maderu img{
+    width: 3.75rem;
+    height: 3.75rem ;
+}
 
 }

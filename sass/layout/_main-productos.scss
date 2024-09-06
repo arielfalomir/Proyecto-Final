@@ -14,12 +14,14 @@
         div p{
             text-align: center;
             font-size: 1.125rem;
+            font-family: $fuenteParrafo;
         }
         div button{
             padding: .1875rem ;
             border-radius: 5px 5px 10px;
-            background-color: rgb(244, 239, 233);
+            background-color: map-get($coLores, color3);
             font-size: 24px;
+            font-family: $fuenteParrafo;
         }
         .card1 {
             grid-column: 1 / 1;
@@ -92,15 +94,17 @@
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
         h1{
             font-size: 3rem;
+            $FuenteTitulo: "Inter", sans-serif;
         }
         }
 }
 
 .main-productos {
-    background-color: rgb(250, 238, 224);
+    background-color: map-get($coLores , color2 );
 h2{
-background-color: rgb(244, 209, 155);
+background-color: map-get($coLores, color4 );
 font-size: 2.375rem;
+$FuenteTitulo: "Inter", sans-serif;
 margin-bottom: 2.5rem;
 }
 }
@@ -112,4 +116,4 @@ margin-bottom: 2.5rem;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
     position:relative;
-    background-color: white;}
+    background-color:map-get($coLores, color6 )}

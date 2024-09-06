@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.colores {
-  color: #dbd0c0;
-  color: #faeee0;
-  color: #f9e4c8;
-  color: #f4d19b; }
-
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +8,11 @@
   font-size: 1.375rem; }
 
 .footer p {
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem; }
 
 .footer a {
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem; }
 
 .fondo-footer {
@@ -25,10 +21,10 @@
   margin: 0;
   padding-top: 1.25rem;
   padding-left: .625rem;
-  background-color: #f9e4c8; }
+  background-color: #f4d19b; }
 
 .header_index {
-  background-color: #fff2d7;
+  background-color: #faeee0;
   width: 100%;
   height: 18.75rem; }
   .header_index nav div a {
@@ -78,7 +74,8 @@
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     font-size: 1.5625rem;
-    text-align: center; }
+    text-align: center;
+    font-family: "Poppins", sans-serif; }
   .grid-principal .texto4 {
     grid-column: 1 / 2;
     grid-row: 7 / 8;
@@ -86,7 +83,8 @@
     text-align: center;
     font-weight: bolder;
     padding: .3125rem;
-    color: white; }
+    color: white;
+    font-family: "Poppins", sans-serif; }
 
 .estilo-button {
   grid-column: 3 / 4;
@@ -97,6 +95,7 @@
   text-align: center;
   padding: .3125rem;
   font-size: 1rem;
+  font-family: "Poppins", sans-serif;
   width: 12.5rem;
   height: 60px;
   border-radius: 1rem;
@@ -119,7 +118,7 @@
   color: grey; }
 
 .fondo-main {
-  background-color: #fff2d7; }
+  background-color: #faeee0; }
 
 .texto-colecciones h1 {
   background-color: #f4d19b;
@@ -164,6 +163,7 @@
     top: 20px;
     right: 20px; }
   .section-novedades .text-novedades p {
+    font-family: "Poppins", sans-serif;
     font-size: 1.125rem; }
 
 .flex-informacion {
@@ -172,7 +172,7 @@
   align-items: center;
   margin-top: 12.5rem;
   margin-bottom: 12.5rem;
-  background-color: #fefefe; }
+  background-color: #f9e4c8; }
   .flex-informacion .container-informacion {
     display: flex;
     width: 100%;
@@ -198,36 +198,43 @@
   margin-bottom: 6.25rem;
   align-items: center; }
   .card-newsletter p {
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem; }
 
 .button-newsletter {
   font-size: 1.125rem;
+  font-family: "Poppins", sans-serif;
   padding: .625rem;
   background-color: white;
   border-radius: .3125rem; }
 
 .main-contactos {
-  background-color: #f9f3df; }
+  background-color: #faeee0; }
+  .main-contactos img {
+    width: 100%; }
   .main-contactos h1 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 40px;
     margin-top: 40px;
-    background-color: #ffe0b5; }
+    background-color: #f4d19b; }
   .main-contactos .container-atencioncliente img {
     width: 100%;
     height: 25rem;
     object-fit: cover; }
   .main-contactos section div label {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif; }
   .main-contactos button {
     padding: 10px 70px 10px 70px;
     text-align: center;
     border-radius: .3125rem;
     font-size: 20px;
-    background-color: #fff2d7; }
+    font-family: "Poppins", sans-serif;
+    background-color: #f9e4c8; }
   .main-contactos p {
-    font-size: 16px; }
+    font-size: 16px;
+    font-family: "Poppins", sans-serif; }
 
 .section-contactos {
   display: flex;
@@ -239,12 +246,16 @@
   height: 31.25rem;
   margin-left: .9375rem; }
   .section-contactos p {
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif; }
   .section-contactos a {
     text-decoration: none;
     color: black;
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif; }
   .section-contactos img {
+    width: 1.25rem;
+    height: 1.25rem;
     margin-right: .625rem; }
 
 .fondo-form {
@@ -270,6 +281,7 @@
     font-size: 1.5rem;
     text-align: justify; }
   .card-servicios p {
+    font-family: "Poppins", sans-serif;
     font-size: 1.125rem;
     text-align: justify; }
 
@@ -280,10 +292,12 @@
     font-size: 2.875rem; }
   .texto-quienessomos p {
     font-size: 1.875rem;
+    font-family: "Poppins", sans-serif;
     text-align: center; }
 
 .section-quienes p {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif; }
 
 .section-quienes .titulo-uno {
   font-size: 2.125rem; }
@@ -305,12 +319,14 @@
   .servicios h4 {
     font-size: 1.25rem; }
   .servicios p {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif; }
   .servicios .list-servicios {
     width: 15.625rem;
     border: black 5px solid; }
     .servicios .list-servicios a {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      font-family: "Poppins", sans-serif; }
 
 .flex-servicios {
   display: flex;
@@ -333,6 +349,7 @@
     width: 4.375rem;
     height: 4.375rem; }
   .flex-servicios p {
+    font-family: "Poppins", sans-serif;
     font-size: 1.125rem; }
 
 .text-servicios h2 {
@@ -357,12 +374,14 @@
     right: 20px; }
   .grid-productos div p {
     text-align: center;
-    font-size: 1.125rem; }
+    font-size: 1.125rem;
+    font-family: "Poppins", sans-serif; }
   .grid-productos div button {
     padding: .1875rem;
     border-radius: 5px 5px 10px;
-    background-color: #f4efe9;
-    font-size: 24px; }
+    background-color: #f9e4c8;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif; }
   .grid-productos .card1 {
     grid-column: 1 / 1;
     grid-row: 1 / 2; }
@@ -520,7 +539,8 @@
   .section-ofertas h3 {
     font-size: 1.75rem; }
   .section-ofertas p {
-    font-size: 1.375rem; }
+    font-size: 1.375rem;
+    font-family: "Poppins", sans-serif; }
 
 .fade-in {
   -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -575,8 +595,7 @@
     font-size: 1rem;
     text-align: center;
     font-weight: bolder;
-    padding: .3125rem;
-    color: white; }
+    padding: .3125rem; }
   .texto-colecciones h1 {
     font-size: 2.375rem; }
   .header_index input {
@@ -601,11 +620,10 @@
     .grid-productos div button {
       padding: 0;
       border-radius: 5px 5px 10px;
-      background-color: #f4efe9;
       font-size: 16px; }
   .container-card {
-    width: 10rem;
-    height: 18.75rem;
+    width: 11.25rem;
+    height: 21.25rem;
     border-radius: .3125rem;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
@@ -626,14 +644,12 @@
   .section-quienes .titulo-dos {
     font-size: 1.25rem; }
   .titulo-ofertas {
-    margin-top: 40px;
-    background-color: #f4d19b; }
+    margin-top: 40px; }
     .titulo-ofertas h1 {
       font-size: 2rem; }
   .section-ofertas {
     width: 60%;
     height: 62.5rem;
-    background-color: #dbd0c0;
     text-align: center;
     padding: 2.5rem;
     margin-left: 12.5rem;
@@ -655,16 +671,14 @@
     border-radius: .3125rem;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
-    position: relative;
-    background-color: white; }
+    position: relative; }
   .main-contactos {
     background-color: #f9f3df; }
     .main-contactos h1 {
       text-align: center;
       font-size: 2.375rem;
       margin-bottom: 40px;
-      margin-top: 40px;
-      background-color: #ffe0b5; }
+      margin-top: 40px; }
   .container-atencioncliente img {
     width: 100%;
     height: 25rem;
@@ -675,8 +689,7 @@
     padding: 10px 60px 10px 60px;
     text-align: center;
     border-radius: .3125rem;
-    font-size: 20px;
-    background-color: #fff2d7; }
+    font-size: 20px; }
   p {
     font-size: 16px; }
   .section-servicios {
@@ -743,8 +756,7 @@
       font-size: .875rem;
       text-align: center;
       font-weight: bolder;
-      padding: .3125rem;
-      color: white; }
+      padding: .3125rem; }
   .estilo-button {
     grid-column: 3 / 4;
     grid-row: 5 / 6;
@@ -778,15 +790,13 @@
   .novedades h2 {
     font-size: 1.5rem;
     text-align: center;
-    background-color: #f4d19b;
     margin-top: 6.25rem; }
   .flex-informacion {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 12.5rem;
-    margin-bottom: 12.5rem;
-    background-color: #fefefe; }
+    margin-bottom: 12.5rem; }
     .flex-informacion .container-informacion {
       display: flex;
       width: 100%;
@@ -819,7 +829,6 @@
   .button-newsletter {
     font-size: .875rem;
     padding: .625rem;
-    background-color: white;
     border-radius: .3125rem; }
   .footer h5 {
     font-size: 1.125rem; }
@@ -892,8 +901,7 @@
   .flex-servicios {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #dbd0c0; }
+    align-items: center; }
     .flex-servicios .container-servicios {
       display: flex;
       width: 100%;
@@ -910,12 +918,10 @@
       width: 2.5rem;
       height: 2.5rem; }
   .text-servicios h2 {
-    background-color: #f4d19b;
     text-align: center;
     font-size: 1.5rem; }
   .titulo-ofertas {
-    margin-top: 40px;
-    background-color: #f4d19b; }
+    margin-top: 40px; }
     .titulo-ofertas h1 {
       font-size: 1.75rem; }
   .grid-imagen-oferta {
@@ -991,7 +997,6 @@
   .section-ofertas {
     width: 60%;
     height: 53.125rem;
-    background-color: #dbd0c0;
     text-align: center;
     padding: 2.5rem;
     margin-left: 10.625rem;
@@ -1000,28 +1005,24 @@
       font-size: 1.125rem; }
     .section-ofertas p {
       font-size: 14px; }
-  .main-contactos {
-    background-color: #f9f3df; }
-    .main-contactos h1 {
-      text-align: center;
-      font-size: 1.75rem;
-      margin-bottom: 40px;
-      margin-top: 40px;
-      background-color: #ffe0b5; }
-    .main-contactos .container-atencioncliente img {
-      width: 100%;
-      height: 18.75rem;
-      object-fit: cover; }
-    .main-contactos section div label {
-      font-size: 1.125rem; }
-    .main-contactos button {
-      padding: 10px 70px 10px 70px;
-      text-align: center;
-      border-radius: .3125rem;
-      font-size: 14px;
-      background-color: #fff2d7; }
-    .main-contactos p {
-      font-size: .75rem; }
+  .main-contactos h1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+    margin-top: 40px; }
+  .main-contactos .container-atencioncliente img {
+    width: 100%;
+    height: 18.75rem;
+    object-fit: cover; }
+  .main-contactos section div label {
+    font-size: 1.125rem; }
+  .main-contactos button {
+    padding: 10px 70px 10px 70px;
+    text-align: center;
+    border-radius: .3125rem;
+    font-size: 14px; }
+  .main-contactos p {
+    font-size: .75rem; }
   .section-contactos {
     display: flex;
     flex-direction: column;
@@ -1082,12 +1083,9 @@
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436); }
       .grid-nuestrosproductos .text-nuestrosproductos h1 {
         font-size: 1.75rem; }
-  .main-productos {
-    background-color: #faeee0; }
-    .main-productos h2 {
-      background-color: #f4d19b;
-      font-size: 1.75rem;
-      margin-bottom: 2.5rem; } }
+  .main-productos h2 {
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem; } }
 
 @media (max-width: 426px) {
   .grid-principal {
@@ -1124,8 +1122,7 @@
       font-size: .75rem;
       text-align: center;
       font-weight: bolder;
-      padding: .3125rem;
-      color: white; }
+      padding: .3125rem; }
   .estilo-button {
     grid-column: 3 / 4;
     grid-row: 5 / 6;
@@ -1159,15 +1156,13 @@
   .novedades h2 {
     font-size: 1.125rem;
     text-align: center;
-    background-color: #f4d19b;
     margin-top: 6.25rem; }
   .flex-informacion {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
-    background-color: #fefefe; }
+    margin-bottom: 6.25rem; }
     .flex-informacion .container-informacion {
       display: flex;
       width: 100%;
@@ -1200,7 +1195,6 @@
   .button-newsletter {
     font-size: .625rem;
     padding: .625rem;
-    background-color: white;
     border-radius: .3125rem; }
   .section-novedades {
     width: 100%;
@@ -1272,8 +1266,7 @@
   .flex-servicios {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #dbd0c0; }
+    align-items: center; }
     .flex-servicios .container-servicios {
       display: flex;
       width: 100%;
@@ -1290,12 +1283,10 @@
       width: 2.5rem;
       height: 2.5rem; }
   .text-servicios h2 {
-    background-color: #f4d19b;
     text-align: center;
     font-size: 1.125rem; }
   .titulo-ofertas {
-    margin-top: 40px;
-    background-color: #f4d19b; }
+    margin-top: 40px; }
     .titulo-ofertas h1 {
       font-size: 1.25rem; }
   .grid-imagen-oferta {
@@ -1374,7 +1365,6 @@
   .section-ofertas {
     width: 100%;
     height: 53.125rem;
-    background-color: #dbd0c0;
     text-align: center;
     padding: 2.5rem;
     margin-left: 0;
@@ -1383,28 +1373,24 @@
       font-size: .875rem; }
     .section-ofertas p {
       font-size: 12px; }
-  .main-contactos {
-    background-color: #f9f3df; }
-    .main-contactos h1 {
-      text-align: center;
-      font-size: 1.25rem;
-      margin-bottom: 40px;
-      margin-top: 40px;
-      background-color: #ffe0b5; }
-    .main-contactos .container-atencioncliente img {
-      width: 100%;
-      height: 18.75rem;
-      object-fit: cover; }
-    .main-contactos section div label {
-      font-size: .875rem; }
-    .main-contactos button {
-      padding: 10px 70px 10px 70px;
-      text-align: center;
-      border-radius: .3125rem;
-      font-size: .75rem;
-      background-color: #fff2d7; }
-    .main-contactos p {
-      font-size: .75rem; }
+  .main-contactos h1 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    margin-top: 40px; }
+  .main-contactos .container-atencioncliente img {
+    width: 100%;
+    height: 18.75rem;
+    object-fit: cover; }
+  .main-contactos section div label {
+    font-size: .875rem; }
+  .main-contactos button {
+    padding: 10px 70px 10px 70px;
+    text-align: center;
+    border-radius: .3125rem;
+    font-size: .75rem; }
+  .main-contactos p {
+    font-size: .75rem; }
   .section-contactos {
     display: flex;
     flex-direction: column;
@@ -1473,12 +1459,9 @@
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436); }
       .grid-nuestrosproductos .text-nuestrosproductos h1 {
         font-size: 1.25rem; }
-  .main-productos {
-    background-color: #faeee0; }
-    .main-productos h2 {
-      background-color: #f4d19b;
-      font-size: 1.25rem;
-      margin-bottom: 2.5rem; }
+  .main-productos h2 {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem; }
   .grid-productos {
     display: grid;
     width: 100%;
@@ -1498,7 +1481,6 @@
     .grid-productos div button {
       padding: .1875rem;
       border-radius: 5px 5px 10px;
-      background-color: #f4efe9;
       font-size: .875rem; }
     .grid-productos .card1 {
       grid-column: 1 / 1;
@@ -1542,17 +1524,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
-    background-color: #fefefe; }
+    margin-bottom: 6.25rem; }
     .flex-informacion .container-informacion {
       display: flex;
       width: 23.4375rem;
-      height: 18.75rem;
+      height: 15.625rem;
       flex-direction: row;
       justify-content: space-around;
       align-items: center; }
     .flex-informacion .container-text {
-      width: 100px;
+      width: 7.5rem;
       height: 12.5rem;
       text-align: center;
       padding: .625rem; }
@@ -1581,7 +1562,6 @@
   .button-newsletter {
     font-size: .625rem;
     padding: .3125rem;
-    background-color: white;
     border-radius: .3125rem; }
   .text-novedades p {
     font-size: .625rem; }
@@ -1624,8 +1604,7 @@
   .flex-servicios {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #dbd0c0; }
+    align-items: center; }
     .flex-servicios .container-servicios {
       display: flex;
       width: 100%;
@@ -1644,7 +1623,6 @@
     .flex-servicios p {
       font-size: 12px; }
   .text-servicios h2 {
-    background-color: #f4d19b;
     text-align: center;
     font-size: 1.125rem; }
   .titulo-ofertas {
@@ -1677,7 +1655,6 @@
   .section-ofertas {
     width: 100%;
     height: 31.25rem;
-    background-color: #dbd0c0;
     text-align: center;
     padding: 2.5rem;
     margin-left: 0;
@@ -1686,30 +1663,26 @@
       font-size: .75rem; }
     .section-ofertas p {
       font-size: .5rem; }
-  .main-contactos {
-    background-color: #f9f3df; }
-    .main-contactos img {
-      width: 100%; }
-    .main-contactos h1 {
-      text-align: center;
-      font-size: 1rem;
-      margin-bottom: 40px;
-      margin-top: 40px;
-      background-color: #ffe0b5; }
-    .main-contactos .container-atencioncliente img {
-      width: 100%;
-      height: 18.75rem;
-      object-fit: cover; }
-    .main-contactos section div label {
-      font-size: .75rem; }
-    .main-contactos button {
-      padding: 10px 70px 10px 70px;
-      text-align: center;
-      border-radius: .3125rem;
-      font-size: .5rem;
-      background-color: #fff2d7; }
-    .main-contactos p {
-      font-size: .625rem; }
+  .main-contactos img {
+    width: 100%; }
+  .main-contactos h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    margin-top: 40px; }
+  .main-contactos .container-atencioncliente img {
+    width: 100%;
+    height: 18.75rem;
+    object-fit: cover; }
+  .main-contactos section div label {
+    font-size: .75rem; }
+  .main-contactos button {
+    padding: 10px 70px 10px 70px;
+    text-align: center;
+    border-radius: .3125rem;
+    font-size: .5rem; }
+  .main-contactos p {
+    font-size: .625rem; }
   .section-contactos {
     display: flex;
     flex-direction: column;
@@ -1754,9 +1727,36 @@
       text-align: justify; }
     .card-servicios p {
       font-size: .625rem;
-      text-align: justify; } }
+      text-align: justify; }
+  .logo-maderu img {
+    width: 3.75rem;
+    height: 3.75rem; } }
 
-@media only screen and (max-width: 326px) {
+@media only screen and (max-width: 321px) {
+  .flex-informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem; }
+    .flex-informacion .container-informacion {
+      display: flex;
+      width: 23.4375rem;
+      height: 15.625rem;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+    .flex-informacion .container-text {
+      width: 6.25rem;
+      height: 12.5rem;
+      text-align: center;
+      padding: .625rem; }
+      .flex-informacion .container-text p {
+        font-size: .5rem; }
+    .flex-informacion img {
+      width: 1.875rem;
+      height: 1.875rem;
+      margin-bottom: .625rem; }
   .servicios {
     width: 18.75rem;
     padding: .3125rem; }
@@ -1774,7 +1774,6 @@
   .section-ofertas {
     width: 100%;
     height: 37.5rem;
-    background-color: #dbd0c0;
     text-align: center;
     padding: 2.5rem;
     margin-left: 0;
@@ -1874,7 +1873,6 @@
     .grid-productos div button {
       padding: .1875rem;
       border-radius: 5px 5px 10px;
-      background-color: #f4efe9;
       font-size: .625rem; }
     .grid-productos .card1 {
       grid-column: 1 / 1;
@@ -1909,5 +1907,4 @@
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
     position: relative;
-    background-color: white;
     margin-bottom: .9375rem; } }

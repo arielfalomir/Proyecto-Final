@@ -27,7 +27,6 @@
             text-align: center;
             font-weight: bolder;
             padding: .3125rem;
-            color:rgb(255, 255, 255);
         }
        }
 
@@ -65,14 +64,13 @@
         div button{
             padding: 0 ;
             border-radius: 5px 5px 10px;
-            background-color: rgb(244, 239, 233);
             font-size: 16px;
         }
 }
 
 .container-card{
-    width: 10rem;
-    height: 18.75rem;
+    width: 11.25rem;
+    height: 21.25rem;
     border-radius: .3125rem;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
@@ -105,7 +103,6 @@
 
     .titulo-ofertas{
         margin-top: 40px;
-        background-color:rgb(244, 209, 155) ;
         h1{
             font-size: 2rem;
         }
@@ -114,7 +111,6 @@
     .section-ofertas {
         width: 60% ;
         height: 62.5rem;
-        background-color:rgb(219, 208, 192 );
         text-align: center;
         padding: 2.5rem;
         margin-left: 12.5rem;
@@ -141,7 +137,6 @@
         text-align: center;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
         position:relative;
-        background-color: white;
     
     }
 
@@ -152,7 +147,6 @@
             font-size: 2.375rem;
             margin-bottom: 40px;
             margin-top: 40px;
-            background-color: rgb(255, 224, 181);
     
         }
     }
@@ -172,7 +166,6 @@
            text-align: center;
           border-radius: .3125rem;
           font-size: 20px;
-          background-color: rgb(255,242,215);
             }
         p{font-size: 16px;
             

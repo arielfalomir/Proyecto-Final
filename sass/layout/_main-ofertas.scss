@@ -1,8 +1,9 @@
 .titulo-ofertas{
     margin-top: 50px;
-    background-color:rgb(244, 209, 155) ;
+    background-color:map-get($coLores , color4 );
     h1{
         font-size: 2.375rem;
+        $FuenteTitulo: "Inter", sans-serif;
     }
 }
 
@@ -72,7 +73,7 @@
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
     position:relative;
-    background-color: white;
+    background-color: map-get($coLores, color6 )
 
 }
 
@@ -101,11 +102,13 @@
 .section-ofertas {
     width: 60% ;
     height: 75rem;
-    background-color:rgb(219, 208, 192 );
+    background-color:map-get($coLores, color1 );
     text-align: center;
     padding: 2.5rem;
     margin-left: 18.75rem;
     margin-top: 6.25rem;
-    h3{font-size: 1.75rem;}
-    p{font-size: 1.375rem;}
+    h3{font-size: 1.75rem;
+        $FuenteTitulo: "Inter", sans-serif;}
+    p{font-size: 1.375rem;
+        font-family: $fuenteParrafo;}
 }

@@ -2,8 +2,10 @@
     h5{
         font-size: 1.375rem;
     }
-    p{font-size: 1.125rem;}
-    a{font-size: 1.125rem;}
+    p{font-family: $fuenteParrafo;
+        font-size: 1.125rem;}
+    a{font-family: $fuenteParrafo;
+        font-size: 1.125rem;}
 }
 
 .fondo-footer {
@@ -12,5 +14,5 @@
     margin: 0;
     padding-top: 1.25rem;
     padding-left: .625rem;
-    background-color:rgb(249, 228, 200) ;
+    background-color:map-get($coLores, color4);
 }
